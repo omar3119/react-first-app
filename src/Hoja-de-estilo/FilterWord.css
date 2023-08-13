@@ -1,0 +1,28 @@
+.container-filter ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-filter ul li {
+  height: 40px;
+  font-size: 20px;
+  padding: 0 10px;
+  color: #3d415c;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.container-filter ul li:hover {
+  background-color: blueviolet;
+  border-radius: 50px;
+  color: white;
+}
+.container-filter ul li:active {
+  background-color: blueviolet;
+}
+.active{
+  background-color: blueviolet;
+  
+}
